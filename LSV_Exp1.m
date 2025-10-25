@@ -5,7 +5,7 @@
 clear; clc; close all;
 
 %% User Inputs
-filename = 'exp2-lm/LSV_100mV_Pd.csv'; % Your raw data file: [Voltage (V), Current (A)]
+filename = 'exp2\exp2-jc\10OCT25_PtBlackCatalyst_LSV_HER_5mVs.csv'; % Your raw data file: [Voltage (V), Current (A)]
 electrode_area = 0.196e-4; % cm^2 (example: 5 mm diameter disk)
 n = 4;                     % number of electrons (ferri/ferrocyanide = 1)
 T = 298.15;                % temperature (K)
